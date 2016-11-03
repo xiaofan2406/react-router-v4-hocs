@@ -1,10 +1,13 @@
-# react-router-hocs
+# react-router-v4-hocs
 > Set of higher order components for `React Router v4`
+
+
+### [React Router v4 docs](https://react-router.now.sh/)
 
 
 ### Usage
 ```js
-import withRouter from 'react-router-hocs/withRouter';
+import withRouter from 'react-router-v4-hocs/withRouter';
 
 
 class MyComponent extends React.Component {
@@ -15,15 +18,13 @@ class MyComponent extends React.Component {
 export default withRouter(MyComponent);
 ```
 
-### [React Router v4 docs](https://react-router.now.sh/)
-
-
 ### API
 
 ##### withLocation
 
 - Give wrapped component `location` prop.
 - Default `location` shape:
+
   ```js
   {
     hash: String
@@ -37,6 +38,7 @@ export default withRouter(MyComponent);
 ##### withRouter
 - Give wrapped component `router` prop.
 - Default `router` shape:
+
   ```js
   {
     blockTransitions: Function

@@ -1,5 +1,5 @@
 {
-  "name": "react-router-hocs",
+  "name": "react-router-v4-hocs",
   "version": "0.0.1",
   "description": "Set of higher order components for react router v4",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xiaofan2406/react-router-hocs"
+    "url": "https://github.com/xiaofan2406/react-router-v4-hocs"
   },
   "peerDependencies": {
     "react": "^15.x",
