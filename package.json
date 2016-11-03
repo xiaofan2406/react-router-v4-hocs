@@ -1,9 +1,14 @@
 {
   "name": "react-router-hocs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Set of higher order components for react router v4",
   "main": "index.js",
-  "keywords": ["react", "react-router", "withRouter", "withLocation"],
+  "keywords": [
+    "react",
+    "react-router",
+    "withRouter",
+    "withLocation"
+  ],
   "author": "Xiaofan Wu",
   "license": "ISC",
   "repository": {
@@ -12,7 +17,7 @@
   },
   "peerDependencies": {
     "react": "^15.x",
-    "react-router" : "^4.0.0-alpha.5"
+    "react-router": "^4.0.0-alpha.5"
   },
   "scripts": {
     "postversion": "git push && git push --tags && npm publish"
