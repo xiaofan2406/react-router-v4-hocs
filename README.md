@@ -7,8 +7,8 @@
 
 ### Usage
 ```js
-import withRouter from 'react-router-v4-hocs/withRouter';
-
+import withRouter from 'react-router-v4-hocs/lib/withRouter';
+// import { withRouter } from 'react-router-v4-hocs';
 
 class MyComponent extends React.Component {
   ...

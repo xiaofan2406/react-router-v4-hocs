@@ -20,6 +20,7 @@
     "react-router": "^4.0.0-alpha.5"
   },
   "scripts": {
+    "preversion": "./node_modules/.bin/babel ./src --out-dir ./lib",
     "postversion": "git push && git push --tags && npm publish"
   },
   "devDependencies": {
