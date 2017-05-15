@@ -1,6 +1,8 @@
 # react-router-v4-hocs
 > Set of higher order components for `React Router v4`
 
+### @deprecated
+latest version of `react-router-dom` includes `withRouter`
 
 ### [React Router v4 docs](https://react-router.now.sh/)
 
