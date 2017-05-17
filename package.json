@@ -1,6 +1,6 @@
 {
   "name": "react-router-v4-hocs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Set of higher order components for react router v4",
   "main": "index.js",
   "keywords": [
